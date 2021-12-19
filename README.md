@@ -15,21 +15,8 @@
 <li>react-html-parser</li>
 </ul>
 
-Security rules for Firestore:
 <hr>
-rules_version = '2';
-service cloud.firestore {
-  match /databases/{database}/documents {
-  
-    match /watchlist/{userId}{
-      allow read:if isLoggedIn(userId)
-      allow write:if request.auth.uid == userId
-    }
-  }
-  function isLoggedIn(userId) {
-  	return request.auth.uid == usedId
-  }
-}
 
 <img src='1.png'/>
 <img src='2.png'/>
+<img src='3.png'/>
