@@ -33,8 +33,8 @@ const useStyles = makeStyles({
     marginTop: 20,
   },
   picture: {
-    width: 200,
-    height: 200,
+    width: 100,
+    height: 100,
     cursor: "pointer",
     backgroundColor: "#EEBC1D",
     objectFit: "contain",
@@ -160,7 +160,7 @@ export default function UserSidebar() {
                 </span>
                 <div className={classes.watchlist}>
                   <span style={{ fontSize: 15, textShadow: "0 0 5px black" }}>
-                    Watchlist
+                    Отслеживаемое
                   </span>
                   {coins.map((coin) => {
                     if (watchlist.includes(coin.id))
