@@ -3,8 +3,9 @@
 
 ### Demo - https://koma-crypto.netlify.app/
 
+<hr/>
 
-<h4>Dependencies</h4>
+<h4>Dependencies:</h4>
 <ul>
 <li>material-ui</li>
 <li>material-ui/lab</li>
