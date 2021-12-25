@@ -3,7 +3,10 @@
 
 ### Demo - https://koma-crypto.netlify.app/
 
-<ul>Dependencies 
+<hr/>
+
+<h4>Dependencies:</h4>
+<ul>
 <li>material-ui</li>
 <li>material-ui/lab</li>
 <li>axios</li>
@@ -17,6 +20,8 @@
 
 <hr>
 
+<p align="center">
 <img src='1.png'/>
-<img src='2.png'/>
+<img src='2.png' align='center'/>
 <img src='3.png'/>
+</p>
