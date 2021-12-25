@@ -15,7 +15,7 @@ const Login = ({ handleClose }) => {
       setAlert({
         open: true,
         message: "Заполните поля",
-        type: "error",
+        type: "warning",
       });
       return;
     }

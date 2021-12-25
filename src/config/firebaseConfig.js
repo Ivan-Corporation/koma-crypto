@@ -1,10 +1,10 @@
 const firebaseConfig = {
-  apiKey: "AIzaSyBmHzkxIH7cFlf_uMzyCI4ZAcMEE6xsR3c",
-  authDomain: "komacryptocurrency.firebaseapp.com",
-  projectId: "komacryptocurrency",
-  storageBucket: "komacryptocurrency.appspot.com",
-  messagingSenderId: "1050593950701",
-  appId: "1:1050593950701:web:97161114bad1f0763105e4"
+  apiKey: "AIzaSyCXctbugXwhPVKIZOaceQzaAOJJRBwlEIk",
+  authDomain: "koma-crypto.firebaseapp.com",
+  projectId: "koma-crypto",
+  storageBucket: "koma-crypto.appspot.com",
+  messagingSenderId: "15638166710",
+  appId: "1:15638166710:web:bd5ebf920321d2424c3a17"
 };
 
 export default firebaseConfig;

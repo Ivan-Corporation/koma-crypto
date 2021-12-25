@@ -5,6 +5,7 @@ import axios from "axios";
 import { CoinList } from "./config/api";
 import { onSnapshot, doc } from "firebase/firestore";
 
+
 const Crypto = createContext();
 
 const CryptoContext = ({ children }) => {
@@ -15,9 +16,11 @@ const CryptoContext = ({ children }) => {
     message: "",
     type: "success",
   });
+
   const [user, setUser] = useState(null);
   const [coins, setCoins] = useState([]);
   const [loading, setLoading] = useState(false);
+
   const [watchlist, setWatchlist] = useState([]);
 
   useEffect(() => {
